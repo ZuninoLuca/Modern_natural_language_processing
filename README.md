@@ -1,2 +1,9 @@
-# Modern_natural_language_processing
-Repository containing the projects of the EPFL course "Modern natural language processing"
+# Modern natural language processing
+This repository contains multiple resources related to the final project of the course "Modern natural language processing" (taught by Professor A. Bosselut), attended in the Spring semester of 2023 at EPFL. The project has been done in cooperation with Nay Abi Akl and Mariam Hassan.
+
+The final project consisted in implementing a Large Language Model - based chatbot capable of answering academic questions related to courses taught at EPFL. We proposed an open book chatbot, able of scouring the internet (and Wikipedia in particular) in order to gather some useful knowledge before answering the question. Therefore, we also finetuned a T5 model to act as a context retriever, and we passed the context together with the question to the chatbot (which was also T5-based) in order to get an answer which is as accurate as possible.
+
+The following resources are present in the repository:
+- [Folder related to the first milestone of the project](/Project_Milestone_1/), containing a [review of a paper](/Project_Milestone_1/m1_review_337560.pdf), an [analysis of different propting strategies that allow to distil demonstrations from a well-established LLM such as ChatGPT](/Project_Milestone_1/m1_prompting_strategies_337560.pdf), and a [project plan](/Project_Milestone_1/m1_project_plan.pdf);
+- [Folder related to the second milestone of the project](/Project_Milestone_2/), containing [some scripts used for data processing](/Project_Milestone_2/data_processing_scripts/), the [reward model](/Project_Milestone_2/reward_model/) and the [report](/Project_Milestone_2/M2_Report.pdf) which specifies the choices and the work done to obtain the reward model;
+- [Folder related to the third and last milestone of the project](/Project_Milestone_3/), containing the [final model](/Project_Milestone_3/final_model/), the [GPT2 model](/Project_Milestone_3/gpt2-model/), the [T5 model](/Project_Milestone_3/t5-model/) and the [final report](/Project_Milestone_3/final_report_ModernNLM.pdf) which specifies the choices and the work done to obtain the final model. Furthermore, in the [live chat folder](/Project_Milestone_3/live_chat/) the instructions on how to setup the chatbot are presented.
